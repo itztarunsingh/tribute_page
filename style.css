@@ -1,0 +1,87 @@
+@import url(https://db.onlinewebfonts.com/c/ca2de7b2adcfd08a741969e098970765?family=Dot+Matrix+OT+W01+Two+Narrow);
+
+body {
+    margin: 0;
+}
+
+.section1 {
+    background-color: red;
+    color: white;
+    margin: 0;
+    display: flex;
+    width: 100%;
+}
+
+.initials {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.details {
+    font-family: "Dot Matrix OT W01 Two Narrow";
+    font-size: 60px;
+    display: flex;  
+    margin-left: 10px;
+    width: 60%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.details p2 {
+    font-family: "Dot Matrix OT W01 Two Narrow";
+    font-size: 20px;
+}
+
+.details :hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.image {
+    display: flex;
+}
+
+.image :hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.section2 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: white;
+}
+
+.space1, .space2 {
+    display: flex;
+    height: 100px;
+    width: 100%;
+}
+
+.aboutpara {
+    display: flex;
+    text-align: center;
+    color: white;
+    margin: 20px;
+    padding: 10px;
+    font-size: 40px;
+    background-color: black;
+}
+
+.section3 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: black;
+}
+
+.hislife {
+    display: flex;
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    font-size: 40px;
+}
